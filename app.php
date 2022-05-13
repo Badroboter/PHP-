@@ -1,6 +1,7 @@
 <?php
-//1.设计数据库
-
+//1.设计数据库；
+//进入SQL 创建数据库 命名为phpcrud 创建数据表 user  
+//在XAMPP/htdocs目录下创建phpcrud文件夹 创建APP.PHP文件
 //2.链接数据库
 $conn = new mysqli("localhost","root","","phpcrud");
 if ($conn->connect_error){
